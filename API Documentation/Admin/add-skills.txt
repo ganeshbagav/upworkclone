@@ -1,0 +1,32 @@
+- API Title:
+
+    Add Skills To Database
+ 
+- API Endpoint:
+
+    http://localhost:8000/upwork/admin/add-skills
+
+
+- Request Method:
+	
+    POST
+	
+- Request Body:
+
+    "skills" : { "C","CPP","JAVA"}
+	
+- Request Params:
+
+	null
+
+- Path Variables:
+
+	null
+
+- Success response:
+
+	message : Successful
+
+- Error response:
+
+	 null

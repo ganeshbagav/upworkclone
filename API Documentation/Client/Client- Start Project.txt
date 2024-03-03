@@ -1,0 +1,54 @@
+- API Title:
+
+    Freelancer Create Project
+ 
+- API Endpoint:
+
+	Freelancer:
+
+        http://192.168.30.243:8000/upwork/client/start-project
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+	{
+		"freelancerid" 	:  	"1",
+		"jobpostid" 	:	"2",
+		"jobproposalid" : 	"12",
+		"clientid" 		:	"11",
+		
+		"startdate" 	: 	"date",
+		"enddate" 		:	"date",
+		"budget" 		: 	"200",
+		"milestone" : {
+				[
+					"title" : "frontend ",
+					"description" : "info",
+					"mstartdate" : "date",
+					"menddate" : "date"
+				]
+		}
+	}
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+	{
+		"message" : "success"
+	}
+
+- Error response :
+	{
+		"message" : "error"
+	}
+	 

@@ -1,0 +1,35 @@
+- API Title:
+
+    Freelancer Get Applied Job Posts
+ 
+- API Endpoint:
+
+	Freelancer:
+
+        http://192.168.30.243:8000/upwork/freelancer/my-applied-jobs
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    "freelancerid":"1"
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+{
+
+}
+
+- Error response:
+
+	 

@@ -1,0 +1,41 @@
+- API Title:
+
+    Verify Milestone
+ 
+- API Endpoint:
+    
+    Client :
+
+        http://192.168.30.243:8000/upwork/client/verify-milestone
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+        "milestoneid":"1",
+        "projectid":"2",
+        "freelancerid":"3",
+        "jobpostid":"4",
+        "clientid":"1"
+    }
+
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    {
+        "message":"successful"
+    }
+
+- Error response:
+
+	Empty List 

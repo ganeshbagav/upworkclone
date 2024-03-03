@@ -1,0 +1,41 @@
+- API Title:
+
+    get my job posts
+ 
+- API Endpoint:
+    
+    Client :
+
+        http://192.168.30.243:8000/upwork/client/add-job-post
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+        "jobTitle":"build web site",
+        "jobDescription":"xyz",
+        "jobCategory":"Web Development",
+        "jobSkills":["cpp","python","java"],
+        "jobScope":"Long-Term",
+        "jobBudget":"200",
+        "clientId":"123"
+    }
+
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    "message" : "Post Added"
+
+- Error response:
+
+	 

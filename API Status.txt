@@ -1,0 +1,107 @@
+
+ADMIN:
+
+	complete:
+
+    in-progress:
+
+    pending:
+
+        /add-skills
+        /get-skills-by-word
+        /get-all-skills
+        /add-category
+        /get-all-categories
+        /add-industry
+        /get-all-industries
+
+******************************************************************************************
+
+CLIENT:
+	
+	complete:
+	
+        /sign-up
+        /dashboard
+        /get-my-job-post
+        /add-job-post
+        /get-job-post-proposals
+        /start-project
+
+    in-progress:
+    
+        */get-projects-info
+        /add-balance
+        /search-talent
+        /verify-milestone
+        /complete-project
+    
+    pending:
+
+********************************************************************************************
+
+FREELANCER:
+
+    complete:
+
+        /sign-up
+        /dashboard
+        /send-job-proposal
+        /get-freelancer-feed
+        /my-applied-jobs
+
+    in-progress:
+
+        */get-projects-info
+        /add-balance
+        /submit-milestone
+        /search-job
+
+    pending:
+
+********************************************************************************************
+
+GENERIC:
+
+	complete:
+
+        /log-in
+
+    in-progress:
+
+
+    pending:
+
+        /notification
+        /transaction
+        /viewed-notification
+
+*********************************************************************************************
+Upcoming features:
+
+Massaging 
+Edit Project 
+Notifications
+
+
+
+
+
+Project INFO Response
+
+Client 
+    titel 
+    freelancer name 
+    total milestone
+    completed milestone
+
+    milestone info
+
+FREELANCER
+
+    titel 
+    client name 
+    total milestone
+    completed milestone
+
+    milestone info

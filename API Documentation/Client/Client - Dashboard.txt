@@ -1,0 +1,39 @@
+- API Title:
+
+    Client Dashboard
+ 
+- API Endpoint:
+
+    http://192.168.30.243:8000/upwork/client/dashboard
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    email : "ganesh@gmail.com"
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+	 {
+        "clientId": "1",
+        "firstName": "ganesh",
+        "lastName": "bagav"
+        "email": "hghj",
+        "jobPostCount": "0",
+        "incompleteProjectCount": "0",
+        "completeProjectCount": "0",
+    }
+
+- Error response:
+
+	 

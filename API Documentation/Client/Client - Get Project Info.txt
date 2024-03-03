@@ -1,0 +1,38 @@
+- API Title:
+
+    get project info
+ 
+- API Endpoint:
+    
+    Client :
+
+        http://192.168.30.243:8000/upwork/client/get-projects-info
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+        "email":"ganesh@gmail.com",
+        "status":"complete" or "incomplete"
+    }
+
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    {
+        
+    }
+
+- Error response:
+
+	Empty List 

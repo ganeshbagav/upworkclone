@@ -1,0 +1,42 @@
+- API Title:
+
+    Dashboard
+ 
+- API Endpoint:
+
+        http://192.168.30.243:8000/upwork/log-in
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    email : "ganesh@gmail.com",
+    password:"Ganesh@123"
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    Client:
+    message : logged in
+    userType : client 
+    clientId : 132
+
+    Freelancer : 
+    message : logged in
+    userType : freelancer 
+    freelancerId : 121
+
+- Error response:
+
+	message : Sign up first
+    message : password incorrect
+

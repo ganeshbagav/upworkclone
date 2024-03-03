@@ -1,0 +1,87 @@
+- API Title:
+
+    Freelancer feed
+ 
+- API Endpoint:
+
+	Freelancer:
+
+        http://localhost:8000/upwork/freelancer/get-freelancer-feed
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+        empty body
+    }
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+[
+    {
+        "date": "2023-07-13",
+        "jobTitle": "upwork",
+        "scope": "long term",
+        "jobPostId": "14",
+        "jobDescription": "jvm",
+        "time": "15:18:08",
+        "category": "java ",
+        "budget": "500"
+        "skills":[c,cpp]
+    },
+    {
+        "date": "2023-07-13",
+        "jobTitle": "facebook",
+        "scope": "long term",
+        "jobPostId": "13",
+        "jobDescription": "jvm",
+        "time": "13:54:07",
+        "category": "java ",
+        "budget": "500"
+    },
+    {
+        "date": "2023-07-07",
+        "jobTitle": "amazon",
+        "scope": "long term",
+        "jobPostId": "12",
+        "jobDescription": "jvm",
+        "time": "21:12:16",
+        "category": "java ",
+        "budget": "500"
+    },
+    {
+        "date": "2023-07-07",
+        "jobTitle": "amazon",
+        "scope": "long term",
+        "jobPostId": "11",
+        "jobDescription": "jvm",
+        "time": "20:57:17",
+        "category": "java ",
+        "budget": "500"
+    },
+    {
+        "date": "2023-07-07",
+        "jobTitle": "amazon",
+        "scope": "long term",
+        "jobPostId": "10",
+        "jobDescription": "jvm",
+        "time": "15:49:09",
+        "category": "java ",
+        "budget": "500"
+    }
+]
+
+- Error response:
+
+	 

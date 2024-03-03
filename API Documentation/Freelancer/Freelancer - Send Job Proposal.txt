@@ -1,0 +1,36 @@
+- API Title:
+
+    Freelancer - Send Job Proposal
+ 
+- API Endpoint:
+
+	Freelancer:
+
+        http://192.168.30.243:8000/upwork/freelancer/send-job-proposal
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+        "freelancerid":"1",
+        "jobpostid":"12",
+    }
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    "message":"successful"
+
+- Error response:
+
+	 

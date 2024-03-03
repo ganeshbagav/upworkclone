@@ -1,0 +1,36 @@
+- API Title:
+
+    Add balance
+ 
+- API Endpoint:
+    
+    Client :
+
+        http://192.168.30.243:8000/upwork/client/add-balance
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+        "email":"ganesh@gmail.com",
+        "balance":"200",
+    }
+
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    "message" : "Post Added"
+
+- Error response:
+
+	 

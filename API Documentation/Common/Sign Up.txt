@@ -1,0 +1,89 @@
+- API Title:
+
+    Sign up
+
+- API Endpoint:
+
+    Freelancer:
+
+        http://192.168.30.243:8000/upwork/freelancer/sign-up
+    
+    Client :
+
+        http://192.168.30.243:8000/upwork/client/sign-up
+
+    Admin:
+
+        http://192.168.30.243:8000/upwork/admin/sign-up
+
+- Request Method:
+	
+    POST
+	
+- Request Body:
+
+	{   
+		"firstName":"Ganesh",
+		"lastName":"Bagav",
+		"email":"ganesh@gmail.com",
+		"password":"Ganesh@123",
+		"country":"india"
+	}
+
+- Request Params:
+
+    NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    Client :
+	"message":"user added"
+    "clientId":"121"
+
+    Freelancer:
+    "message":"user added"
+    "freelancerId":"123"
+
+
+- Error response:
+
+    "message":"email missing"
+    "message":"email already in use"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Freelancer:
+    {   
+        "firstName":"Ganesh",
+		"lastName":"Bagav",
+		"email":"ganesh@gmail.com",
+		"password":"Ganesh@123",
+		"country":"india",
+        "categories":"Software developer",
+        "skills":"Android, React, Spring Boot",
+        "languages":"english,hindi,marathi",
+        "experience":"0-1 year"
+    }
+
+    Admin:
+    {
+        "firstName":"Ganesh",
+		"lastName":"Bagav",
+		"email":"ganesh@gmail.com",
+		"password":"Ganesh@123"
+    }

@@ -1,0 +1,63 @@
+- API Title:
+
+    Create Project with milestone
+
+ 
+- API Endpoint:
+
+    http://192.168.30.243:8000/upwork/client/start-project
+	
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+		"freelancerid" 	:  	"1",
+		"jobpostid" 	:	"2",
+		"jobproposalid" : 	"12",
+		"clientid" 		:	"11",
+		"startdate" 	: 	"date",
+		"enddate" 		:	"date",
+		"starttime" 	:	"date",
+		"endtime" 		:	"date",
+		"budget" 		: 	"200",
+		"milestone" : [
+            {
+                "title" : "frontend ",
+                "description" : "info",
+                "mstarttime" : "date",
+                "mendtime" : "date",
+                "mstartdate" : "date",
+                "menddate" : "date"
+            },
+            {
+                "title": "backend",
+                "description": "info",
+                "mstarttime" : "date",
+                "mstartdate" : "date",
+                "mendtime": "date",
+                "menddate": "date"
+            }
+		]
+	}
+	
+- Request Params:
+
+	null
+
+- Path Variables:
+
+	null
+
+- Success response:
+
+    {
+	    "message":"success"
+    }
+
+- Error response:
+
+	 

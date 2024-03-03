@@ -1,0 +1,56 @@
+- API Title:
+
+    Get Job Post Proposals
+ 
+- API Endpoint:
+
+    http://192.168.30.243:8000/upwork/client/get-job-post-proposals
+	
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+        "jobPostId" : "1"
+    }
+	
+- Request Params:
+
+    null
+
+- Path Variables:
+
+	null
+
+- Success response:
+
+    [
+        {
+            "firstName": "F3",
+            "freelancerId": 4,
+            "lastName": "F3",
+            "skills": []
+        },
+        {
+            "firstName": "S",
+            "freelancerId": 5,
+            "lastName": "S",
+            "skills": []
+        },
+        {
+            "firstName": "F1",
+            "freelancerId": 2,
+            "lastName": "F1",
+            "skills": [
+                "Cpp"
+            ]
+        }
+    ]
+	 
+
+- Error response:
+
+	 

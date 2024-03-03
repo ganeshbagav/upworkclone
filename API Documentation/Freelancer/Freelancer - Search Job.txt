@@ -1,0 +1,109 @@
+- API Title:
+
+    Freelancer Search JobPost
+
+- Description:
+
+    Search for jop posts in database base on there skill tags   
+ 
+- API Endpoint:
+
+	Freelancer:
+
+        http://192.168.30.243:8000/upwork/freelancer/search-job
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+    
+    {
+        "skills":"java"
+    }
+
+    OR 
+
+    "skills":"Java"
+    "skills":"j"
+    "skills":"ja"
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    [
+    {
+        "jobId": 12,
+        "jobTitle": "amazon",
+        "jobDescription": "jvm",
+        "category": "java ",
+        "scope": "long term",
+        "budget": "500",
+        "time": "21:12:16",
+        "date": "2023-07-07",
+        "jobProposals": null,
+        "skillTags": [
+            {
+                "skillTagId": 15,
+                "skills": "Java"
+            },
+            {
+                "skillTagId": 16,
+                "skills": "cpp"
+            }
+        ]
+    },
+    {
+        "jobId": 11,
+        "jobTitle": "amazon",
+        "jobDescription": "jvm",
+        "category": "java ",
+        "scope": "long term",
+        "budget": "500",
+        "time": "20:57:17",
+        "date": "2023-07-07",
+        "jobProposals": null,
+        "skillTags": [
+            {
+                "skillTagId": 13,
+                "skills": "java"
+            },
+            {
+                "skillTagId": 14,
+                "skills": "cpp"
+            }
+        ]
+    },
+    {
+        "jobId": 10,
+        "jobTitle": "amazon",
+        "jobDescription": "jvm",
+        "category": "java ",
+        "scope": "long term",
+        "budget": "500",
+        "time": "15:49:09",
+        "date": "2023-07-07",
+        "jobProposals": null,
+        "skillTags": [
+            {
+                "skillTagId": 9,
+                "skills": "java"
+            },
+            {
+                "skillTagId": 10,
+                "skills": "cpp"
+            }
+        ]
+    }
+]
+
+- Error response:
+
+	 

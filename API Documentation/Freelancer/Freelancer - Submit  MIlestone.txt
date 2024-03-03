@@ -1,0 +1,38 @@
+- API Title:
+
+    Freelancer - Submit milestone
+ 
+- API Endpoint:
+
+	Freelancer:
+
+        http://192.168.30.243:8000/upwork/freelancer/submit-milestone
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    {
+        "milestoneid":"1",
+        "freelancerid":"2"
+        "jobpostid":"3"
+        "clientid":"4"
+    }
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+    "message":"Successful"
+
+- Error response:
+
+	 NULL

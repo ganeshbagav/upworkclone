@@ -1,0 +1,41 @@
+- API Title:
+
+    Freelancer Dashboard
+ 
+- API Endpoint:
+
+	Freelancer:
+
+        http://192.168.30.243:8000/upwork/freelancer/dashboard
+
+- Request Method:
+	
+	POST
+	
+- Request Body:
+
+    email : "ganesh@gmail.com"
+	
+- Request Params:
+
+	NULL
+
+- Path Variables:
+
+	NULL
+
+- Success response:
+
+{
+    "incompleteProjectCount": "0",
+    "firstName": "Ganesh",
+    "jobProposalCount": "1",
+    "email": "ganesh@123",
+    "freelancerId": "1",
+    "completeProjectCount": "0",
+    "lastName": "Bagav"
+}
+
+- Error response:
+
+	 
