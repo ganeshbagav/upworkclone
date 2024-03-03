@@ -58,15 +58,11 @@ To clone and run the backend project on your local machine, follow these steps:
 3. Edit the `application.properties` file located at `src/main/resources/application.properties`:
    - Replace `username` and `password` with your MySQL username and password to connect to the database.
 
-4. Build the project using Maven:
-   ```
-   mvn clean install
-   ```
+4. Open the project in your favorite IDE, such as Visual Studio Code.
 
-5. Run the backend:
-   ```
-   mvn spring-boot:run
-   ```
+5. Run the backend using the Code Runner extension:
+   - Open the main application file (usually named `UpworkCloneApplication.java` or similar).
+   - Use the Code Runner extension to run the application.
 
 6. Access the application by visiting `http://localhost:8080` in your web browser.
 
