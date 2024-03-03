@@ -1,6 +1,6 @@
 # Upwork Clone 🚀
 
-Welcome to the Upwork Clone project! This repository contains the backend source code for a web application built using Spring Boot, WebSocket, REST API, and MySQL. The frontend part is located in a separate Git repository (link provided below) using React. Get ready to explore the exciting world of freelancing and online job marketplaces! 💼💻
+Welcome to the Upwork Clone project! This repository contains the backend source code for a web application built using Spring Boot, REST API, and MySQL. The frontend part is located in a separate Git repository (link provided below) using React. Get ready to explore the exciting world of freelancing and online job marketplaces! 💼💻
 
 ## Project Overview
 
@@ -36,32 +36,46 @@ Welcome to the Upwork Clone project! This repository contains the backend source
 
 🚀 To get started with the Upwork Clone project, follow these steps:
 
-1. Clone the backend repository: `git clone https://github.com/your-username/upwork-clone.git`
-2. Set up the backend:
-   - Install Java and Spring Boot dependencies.
-   - Configure the MySQL database connection in the `application.properties` file.
-   - Build and run the Spring Boot application.
-3. Clone the frontend repository from [Upwork Clone Frontend](https://github.com/your-username/upwork-clone-frontend).
-4. Follow the instructions in the frontend repository to set up and run the React application.
-5. Access the Upwork Clone application in your web browser.
+## System Requirements
+Before cloning and running the project, please ensure your system meets the following requirements:
+- Java 17
+- MySQL Server installed
+- Database named "upwork" created in MySQL
 
-## Contribution Guidelines
+## Cloning and Running the Project
+To clone and run the backend project on your local machine, follow these steps:
 
-🤝 We welcome contributions from everyone! If you'd like to contribute to the Upwork Clone project, please follow these guidelines:
+1. Clone the repository to your local machine using the following command:
+   ```
+   git clone https://github.com/your-username/upwork-clone-backend.git
+   ```
 
-1. Fork the repository and create your branch: `git checkout -b feature/your-feature`
-2. Implement your changes, ensuring they align with the project's coding style and best practices.
-3. Test your changes thoroughly to ensure they work as expected.
-4. Commit your changes: `git commit -m 'Add your feature'`
-5. Push to your branch: `git push origin feature/your-feature`
-6. Open a pull request with a detailed description of the changes you made.
+2. Navigate into the cloned repository:
+   ```
+   cd upwork-clone-backend
+   ```
 
-## License
+3. Edit the `application.properties` file located at `src/main/resources/application.properties`:
+   - Replace `username` and `password` with your MySQL username and password to connect to the database.
 
-📄 This project is licensed under the MIT License. For more information, please see the [LICENSE](LICENSE) file.
+4. Build the project using Maven:
+   ```
+   mvn clean install
+   ```
 
-## Contact
+5. Run the backend:
+   ```
+   mvn spring-boot:run
+   ```
 
-📧 Feel free to reach out to us if you have any questions or suggestions regarding the Upwork Clone project. You can contact us at [your-email@example.com](mailto:your-email@example.com). We value your feedback and look forward to hearing from you!
+6. Access the application by visiting `http://localhost:8080` in your web browser.
+
+## Frontend Repository
+The frontend code for this project is located in a separate repository. You can clone and set up the frontend by following the instructions in its README file.
+
+## Additional Notes
+- Make sure your MySQL server is running before starting the backend.
+- If you encounter any issues during the setup or running of the project, feel free to reach out to us for support.
+
 
 Let's build the future of freelancing together! 💪💼💻✨

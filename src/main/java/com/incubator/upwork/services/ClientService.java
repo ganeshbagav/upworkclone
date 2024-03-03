@@ -340,7 +340,7 @@ public class ClientService {
                 jobPost.setHide(1);
                 jobPostRepository.save(jobPost);
 
-                JobProposals jobProposals = j
+                JobProposals jobProposals = new JobProposals();
                 List<MileStone> milestonesobj = new ArrayList<>();
                 Iterator itr = milestones.iterator();
                 int cnt = 0;
